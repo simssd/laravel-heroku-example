@@ -15,8 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('users', function () {
-    return 'Users! 555';
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+    return '<h1>Users! 555</h1>';
+});
+Route::get('showname', function () {
+    return '<h1>Hello laraval</h1>';
+});
+Route::get('welcome/name','HelloController@showHello');
