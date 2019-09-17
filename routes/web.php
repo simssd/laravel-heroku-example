@@ -18,6 +18,6 @@ Route::get('users', function () {
     return '<h1>Users! 555</h1>';
 });
 Route::get('showname', function () {
-    return '<h1>Hello laraval</h1>';
+    return '<h1>Hello Laraval</h1>';
 });
 Route::get('welcome/name','Hello Controller@showHello');
