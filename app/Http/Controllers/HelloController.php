@@ -10,4 +10,3 @@ class HomeController extends Controller
        return '<h1>Hello controller</h1>'
     }
 }
-         
