@@ -13,11 +13,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/users', function () {
-    return '<h1>Users! 555</h1>';
+Route::get('/homes', function () {
+    return view('homes');
 });
-Route::get('/showname', function () {
-    return '<h1>Hello Laraval</h1>';
+Route::get('/edit', function () {
+    return view('edit');
 });
-Route::get('/show','HelloController@showHello');
-
+Route::get('/show','HelloController@show');
