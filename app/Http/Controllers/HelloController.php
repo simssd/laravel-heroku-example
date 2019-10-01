@@ -8,5 +8,5 @@ class HomeController extends Controller
 {
      function showHello(){
         return '<h1>Hello controller</h1>'
-  }
+     }
 }
