@@ -23,4 +23,4 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('welcome/name','HelloController@showHello');
+Route::get('welcome/name','HelloController@showHello'); 
