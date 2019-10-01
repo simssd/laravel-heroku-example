@@ -10,3 +10,4 @@ class HelloController extends Controller
         return '<h1>Hello:'.$name.'</h1>';
      }
 }
+ 
