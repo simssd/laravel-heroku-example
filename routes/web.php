@@ -14,6 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('users', function() {
-    return 'Users! 555';
-});
