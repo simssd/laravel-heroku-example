@@ -1,28 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controller;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class HelloController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        return view('home');
+    function show(){
+        return view('users')
+        ->with('name','sim')
+        ->with('title','Laravel tutorial');
     }
 }
+
