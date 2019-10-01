@@ -20,4 +20,4 @@ Route::get('users',function() {
 Route::get('showname', function() {
     return  '<h1>Hello Laravel</h1>';
 });
-Route::get('welcome/name','Hellocontroller@showHello');   
+Route::get('welcome/name','Hellocontroller@showHello');    
